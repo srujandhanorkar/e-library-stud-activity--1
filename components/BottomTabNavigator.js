@@ -5,7 +5,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import TransactionScreen from "../screens/Transaction";
 import SearchScreen from "../screens/Search";
 
-//Add the createBottomTabNavigator to the variable called -Challenge 2
+//Add the createBottomTabNavigator to the variable called tab-Challenge 2
 export default class BottomTabNavigator extends Component {
   render() {
     return (
