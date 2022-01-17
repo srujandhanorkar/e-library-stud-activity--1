@@ -1,17 +1,20 @@
 import React, { Component } from "react";
-//import the libraries
-
+import { NavigationContainer } from "@react-navigation/native";
+//import createBottomTabNavigator libray -Challenge 1
 
 import TransactionScreen from "../screens/Transaction";
 import SearchScreen from "../screens/Search";
-// create tab 
 
+//Add the createBottomTabNavigator to the variable called -Challenge 2
 export default class BottomTabNavigator extends Component {
   render() {
     return (
-      //add the code for add navigationcontainer
-
-      
+      <NavigationContainer>
+        <Tab.Navigator>
+      //Add the code to move to the respective screen when tab is clicked-challenge 3
+         
+        </Tab.Navigator>
+      </NavigationContainer>
     );
   }
 }
