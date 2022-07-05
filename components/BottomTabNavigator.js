@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { NavigationContainer } from "@react-navigation/native";
-//import createBottomTabNavigator libray -Challenge 1
+import createBottomTabNavigator libray -Challenge 1
 
 import TransactionScreen from "../screens/Transaction";
 import SearchScreen from "../screens/Search";
